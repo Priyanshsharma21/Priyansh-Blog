@@ -1,6 +1,6 @@
 import React from 'react'
 import {getCategories,getCategoryPost} from '../../services'
-import {Categories, PostCard} from '../../components/index'
+import {Categories, PostCard,Loader} from '../../components/index'
 import { useRouter } from 'next/router';
 
 const CategoryDetails = ({posts}) => {
