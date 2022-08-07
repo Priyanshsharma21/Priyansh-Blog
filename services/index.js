@@ -4,7 +4,7 @@ import {
 } from 'graphql-request'
 
 const graphqlAPI = 'https://api-ap-south-1.hygraph.com/v2/cl6erwea21p9w01uk58gxb51v/master'
-d
+
 export const getPosts = async () => {
     const query = gql`
     query MyQuery {
